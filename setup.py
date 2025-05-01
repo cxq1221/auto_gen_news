@@ -1,0 +1,30 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="auto_gen_news",
+    version="0.1.0",
+    packages=find_packages(),
+    install_requires=[
+        "aiohttp>=3.9.0",
+        "beautifulsoup4>=4.12.0",
+        "selenium>=4.15.0",
+        "playwright>=1.40.0",
+        "openai>=1.3.0",
+        "langchain>=0.0.350",
+        "markdown>=3.5.0",
+        "jinja2>=3.1.0",
+        "Pillow>=10.1.0",
+        "opencv-python>=4.8.0",
+        "python-docx>=1.0.0",
+        "pymongo>=4.6.0",
+        "redis>=5.0.0",
+        "sqlalchemy>=2.0.0",
+        "apscheduler>=3.10.0",
+        "schedule>=1.2.0",
+        "python-dotenv>=1.0.0",
+        "pyyaml>=6.0.1",
+        "loguru>=0.7.2",
+        "pydantic>=2.5.0",
+    ],
+    python_requires=">=3.8",
+) 
